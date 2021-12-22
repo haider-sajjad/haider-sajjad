@@ -12,5 +12,5 @@ jobs:
   steps:
     - name: printing some message as indication of success
       run: |
-      echo "HELLO"
-      echo "WORLD"
+        echo "HELLO"
+        echo "WORLD"
