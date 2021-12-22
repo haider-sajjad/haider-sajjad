@@ -7,10 +7,11 @@ on:
       
 jobs:
   build:
-  name: testing the sample workflow cicd
-  runs-on: ubuntu-latest
-  steps:
-    - name: printing some message as indication of success
-      run: |
-        echo "HELLO"
-        echo "WORLD"
+    name: testing the sample workflow cicd
+    runs-on: ubuntu-latest
+  
+    steps:
+      - name: printing some message as indication of success
+        run: |
+          echo "HELLO"
+          echo "WORLD"
